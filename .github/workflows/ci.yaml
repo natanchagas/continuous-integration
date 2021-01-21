@@ -22,7 +22,7 @@ jobs:
 
       - name: Build and push
         id: docker_build
-        uses: docker/build-and-push-action@v2
+        uses: docker/build-push-action@v2
         with:
           push: false
           tags: natanchagas/continuous-integration:latest
